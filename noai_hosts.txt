@@ -665,6 +665,7 @@
 0.0.0.0 buddhaweekly.com
 0.0.0.0 netwrck.com
 0.0.0.0 civitaiarchive.com
+0.0.0.0 civarchive.com
 
 
 # [.art sites]
@@ -1122,6 +1123,7 @@
 0.0.0.0 ai-nudes.ai
 0.0.0.0 undress.xxx
 0.0.0.0 girlfriend.ai
+0.0.0.0 clothoff.net
 
 
 # [Miscellaneous crypto/nft shit]
@@ -1808,6 +1810,7 @@
 0.0.0.0 www.buddhaweekly.com
 0.0.0.0 www.netwrck.com
 0.0.0.0 www.civitaiarchive.com
+0.0.0.0 www.civarchive.com
 
 
 # [.art sites]
@@ -2263,6 +2266,7 @@
 0.0.0.0 www.ai-nudes.ai
 0.0.0.0 www.undress.xxx
 0.0.0.0 www.girlfriend.ai
+0.0.0.0 www.clothoff.net
 
 
 # [Miscellaneous crypto/nft shit]
@@ -2296,3 +2300,5 @@
 0.0.0.0 www.homediningkitchen.com
 0.0.0.0 www.psichologyanswers.com
 0.0.0.0 www.umatechnology.org
+
+

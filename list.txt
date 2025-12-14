@@ -364,6 +364,7 @@ duckduckgo.com,bing.com##a[href*="imagineanything.ai"]:upward(li):remove()
 
 
 ! Sites that have .com domain extension
+duckduckgo.com,bing.com##a[href*="thelinuxcode.com"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="steelefortress.com"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="cybersecguide.com"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="chatbot.com"]:upward(li):remove()
@@ -690,7 +691,8 @@ duckduckgo.com,bing.com##a[href*="buddhaweekly.com"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="softhandtech.com"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="netwrck.com"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="civitaiarchive.com"]:upward(li):remove()
-
+duckduckgo.com,bing.com##a[href*="deepwiki.com"]:upward(li):remove()
+duckduckgo.com,bing.com##a[href*="civarchive.com"]:upward(li):remove()
 
 ! Sites that have .art domain extension
 duckduckgo.com,bing.com##a[href*="imagine.art"]:upward(li):remove()
@@ -1000,6 +1002,7 @@ duckduckgo.com,bing.com##a[href*="manuals.plus"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="spca.education"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="sunoai.asia"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="diffus.me"]:upward(li):remove()
+duckduckgo.com,bing.com##a[href*="deepwiki.org"]:upward(li):remove()
 
 
 ! Google Play AI applications
@@ -1184,6 +1187,7 @@ duckduckgo.com,bing.com##a[href*="braundress.net"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="ai-nudes.ai"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="undress.xxx"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="girlfriend.ai"]:upward(li):remove()
+duckduckgo.com,bing.com##a[href*="clothoff.net"]:upward(li):remove()
 
 
 ! //// Block lists of individual users
@@ -2487,6 +2491,9 @@ google.com##a[href*="suno.com"]:upward(2):remove()
 google.com##a[href*="buddhaweekly.com"]:upward(2):remove()
 google.com##a[href*="softhandtech.com"]:upward(2):remove()
 google.com##a[href*="netwrck.com"]:upward(2):remove()
+google.com##a[href*="civitaiarchive.com"]:upward(li):remove()
+google.com##a[href*="deepwiki.com"]:upward(li):remove()
+google.com##a[href*="civarchive.com"]:upward(li):remove()
 
 
 ! Sites that have .art domain extension
@@ -3630,6 +3637,7 @@ github.com##li > a[href$="/copilot"]:upward(li)
 ! // Just in case exceptions
 mail.google.com#@#a[href*="/play.ht"]:upward(2):remove()
 mail.google.com#@#a[href*=".play.ht"]:upward(2):remove()
+@@||keep.google.com^$ehide
 
 ! // Gmail, Google Drive, Google Docs: Try Gemini button
 mail.google.com,drive.google.com,docs.google.com##div[role="tooltip"]:has-text(Try Gemini):upward(3):remove()
