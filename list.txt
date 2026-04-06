@@ -796,7 +796,7 @@ duckduckgo.com,bing.com##a[href*="aiphotos123.art"]:upward(li):remove()
 
 
 ! Sites that have .co domain extension
-duckduckgo.com,bing.com##a[href*="huggingface.co"]:upward(li):remove()
+! duckduckgo.com,bing.com##a[href*="huggingface.co"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="clipdrop.co"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="postalai.co"]:upward(li):remove()
 duckduckgo.com,bing.com##a[href*="thedreamkeeper.co"]:upward(li):remove()
@@ -2598,7 +2598,7 @@ google.com##a[href*="aiphotos123.art"]:upward(2):remove()
 
 
 ! Sites that have .co domain extension
-google.com##a[href*="huggingface.co"]:upward(2):remove()
+! google.com##a[href*="huggingface.co"]:upward(2):remove()
 google.com##a[href*="clipdrop.co"]:upward(2):remove()
 google.com##a[href*="postalai.co"]:upward(2):remove()
 google.com##a[href*="thedreamkeeper.co"]:upward(2):remove()
